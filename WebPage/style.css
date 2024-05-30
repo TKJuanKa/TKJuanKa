@@ -27,7 +27,7 @@ h1{
     padding: 10px 0;
     padding-right: 30px;
     pointer-events: none;
-}
+}        
 ul li{
     list-style: none;
 }
@@ -109,3 +109,37 @@ input:checked ~ .slide{
     transform: translateX(0);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
+.dropdown-content {
+    display: none;
+    }
+.dropbtn {
+    background-color: #f8f407;
+    color: #0dda22;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+    }
+.dropbtn {
+    background-color: #f8f407;
+    color: #0dda22;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+.dropdown-content a:hover {
+    background-color: #ddd;
+    top: 14px;
+    right: 20px;
+    }
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    }
